@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Сайт портфолио веб-разработчика Виктора Захарьина. Ознакомьтесь с моими навыками и примерами выполненных проектов.">
+  <meta name="keywords" content="HTML, CSS, PHP, JavaScript, веб-разработчик, портфолио, фронтенд, бэкенд">
+  <title>Портфолио веб-разработчика - Виктор Захарьин</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!-- fontawesome 5 -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css" integrity="sha512-4wfcoXlib1Aq0mUtsLLM74SZtmB73VHTafZAvxIp/Wk9u1PpIsrfmTvK0+yKetghCL8SHlZbMyEcV8Z21v42UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Required Core Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <!-- Optional Theme Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+  <link rel="stylesheet" href="build/styles.css">
+  <script src="build/bundle.js"></script>
+</head>
+
+<body>
+  <header class="has-background-link">
+    <div class="container is-max-widescreen">
+      <nav class="navbar is-link">
+        <div class="navbar-brand">
+          <p class="navbar-item" href="#">Виктор Захарьин</p>
+          <a class="navbar-burger" data-target="navbarBasic">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div id="navbarBasic" class="navbar-menu">
+          <div class="navbar-start"></div>
+          <div class="navbar-end">
+            <a class="navbar-item" href="#skills">Мои навыки</a>
+            <a class="navbar-item" href="#portfolio">Портфолио</a>
+            <a class="navbar-item" href="#contacts">Контакты</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="hero" class="has-background-info">
+      <div class="container is-max-widescreen">
+        <div class="hero is-info">
+          <div class="hero-body">
+            <p class="title is-size-1-desktop">Веб-разработчик</p>
+            <p class="subtitle is-size-4">Ищу интересные проекты</p>
+            <picture>
+              <source media="(max-width: 428px)" srcset="images/hero-380w.png">
+              <source media="(max-width: 768px)" srcset="images/hero-680w.png">
+              <img src="images/hero-960w.png" alt="Пример адаптивной верстки на разных экранах" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="container is-max-widescreen">
+        <div class="section frontend">
+          <h2 class="title is-size-1-desktop">Мои навыки</h2>
+          <h3 class="title is-size-2-desktop">Фронтенд</h3>
+          <div class="columns">
+            <div class="column">
+              <div class="box">
+                <ul class="fa-ul">
+                  <li><span class="fa-li">
+                      <i class="fab fa-html5"></i>
+                    </span>HTML5</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-css3"></i>
+                    </span>CSS3</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-sass"></i>
+                    </span>SASS</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>CSS Flexbox</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>CSS Grid</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>BEM</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-bootstrap"></i>
+                    </span>Bootstrap</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Bulma</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-font-awesome"></i>
+                    </span>Font Awesome</li>
+                </ul>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <ul class="fa-ul">
+                  <li><span class="fa-li">
+                      <i class="fab fa-js-square"></i>
+                    </span>JavaScript</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>jQuery</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-node-js"></i>
+                    </span>Node.js</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-npm"></i>
+                    </span>Yarn / npm</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Babel</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>ESLint</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Webpack</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-gulp"></i>
+                    </span>Gulp</li>
+                  <li><span class="fa-li">
+                      <i class="fab fa-github-square"></i>
+                    </span>Git / Mercurial</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container is-max-widescreen">
+        <div class="section backend">
+          <h3 class="title is-size-2-desktop">Бэкенд</h3>
+          <div class="columns">
+            <div class="column">
+              <div class="box">
+                <ul class="fa-ul">
+                  <li><span class="fa-li">
+                      <i class="fab fa-php"></i>
+                    </span>PHP</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>OOP</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>DOM</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Composer</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Unit testing</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>SQL</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Migrations</li>
+                </ul>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <ul class="fa-ul">
+                  <li><span class="fa-li">
+                      <i class="fab fa-linux"></i>
+                    </span>Linux</li>
+                  <li><span class="fa-li">
+                      <i class="fas fa-terminal"></i>
+                    </span>Terminal</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Nginx</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>Apache</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>XML</li>
+                  <li><span class="fa-li">
+                      <i class="far fa-check-circle"></i>
+                    </span>XSLT</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="has-background-link">
+      <div class="container is-max-widescreen">
+        <div class="section glide-container">
+          <h2 class="title is-size-1-desktop">Портфолио</h2>
+          <!-- Start Carousel -->
+          <div class="glide">
+            <div data-glide-el="track" class="glide__track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-content">
+                      <h3 class="has-text-centered">Портал управления социальной защиты населения</h3>
+                    </div>
+                    <div class="card-image">
+                      <picture class="image">
+                        <source media="(max-width: 428px)" srcset="images/item2-small.png">
+                        <img src="images/item2.png" alt="Скриншот проекта" />
+                      </picture>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-content">
+                      <h3 class="has-text-centered"><a href="https://saharina.ru">Образовательный сайт</a> учителя русского языка и литературы</h3>
+                    </div>
+                    <div class="card-image">
+                      <picture class="image">
+                        <source media="(max-width: 428px)" srcset="images/item1-small.png">
+                        <img src="images/item1.png" alt="Скриншот проекта" />
+                      </picture>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-content">
+                      <h3 class="has-text-centered">Попиксельная верстка с применением технологии БЭМ</h3>
+                    </div>
+                    <div class="card-image">
+                      <picture class="image">
+                        <source media="(max-width: 428px)" srcset="images/item3-small.png">
+                        <img src="images/item3.png" alt="Скриншот проекта" />
+                      </picture>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-content">
+                      <h3 class="has-text-centered">Попиксельная верстка на основе макета</h3>
+                    </div>
+                    <div class="card-image">
+                      <picture class="image">
+                        <source media="(max-width: 428px)" srcset="images/item4-small.png">
+                        <img src="images/item4.png" alt="Скриншот проекта" />
+                      </picture>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-content">
+                      <h3 class="has-text-centered"><a href="https://sacharin.github.io/basics-final-work/page2.html">Итоговая работа</a> по курсу "Основы веб-технологий"</h3>
+                    </div>
+                    <div class="card-image">
+                      <picture class="image">
+                        <source media="(max-width: 428px)" srcset="images/item5-small.png">
+                        <img src="images/item5.png" alt="Скриншот проекта" />
+                      </picture>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Carousel -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="container is-max-widescreen">
+        <div class="section">
+          <h2 class="title is-size-1-desktop">Контакты</h2>
+          <div class="feedback">
+            <form method="post" action="#" accept-charset="utf-8">
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Ваше имя</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control has-icons-left">
+                      <input class="input" name="name" required="required" maxlength="40" />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">E-mail</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control has-icons-left">
+                      <input class="input" name="mail" type="email" maxlength="80" required="required"></input>
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <p class="help is-info">Для обратной связи</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Сообщение</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <textarea class="textarea" name="text" required="required"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label"></label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <button class="button is-primary is-medium">Отправить</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container is-max-widescreen has-text-centered">
+      <script src="https://yastatic.net/share2/share.js"></script>
+      <div class="ya-share2" data-curtain data-size="l" data-services="vkontakte,facebook,telegram,whatsapp,pinterest,linkedin"></div>
+      <p class="is-size-4 mt-5">Разработка сайта 2022&nbsp;©&nbsp;<a href="mailto:sacharin@ab.ru">Виктор&nbsp;Захарьин</a></p>
+    </div>
+  </footer>
+</body>
